@@ -4,7 +4,7 @@ pipeline {
     stage ('Test') {
       steps {
         echo 'hello'
-        bat 'python yashu.py'
+        powershell 'python yashu.py'
       }
     }
   }
